@@ -1,0 +1,187 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  font-family: sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+#navContainerOne {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 13px;
+  color: white;
+  background-color: #555;
+}
+.listOne {
+  display: grid;
+  grid-template-columns: repeat(6, 60px);
+  justify-items: center;
+  align-items: center;
+}
+.listTwo {
+  display: grid;
+  grid-template-columns: repeat(4, 60px);
+  justify-items: center;
+  align-items: center;
+  justify-content: end;
+  padding-right: 20px;
+}
+#navContainerTwo {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  font-size: 1em;
+  color: white;
+  background-color: lightslategray;
+}
+.listThree {
+  display: grid;
+  grid-template-columns: repeat(5, 135px);
+  justify-items: center;
+  align-items: center;
+}
+.search {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  justify-content: end;
+  padding-right: 20px;
+}
+#mainContainer {
+  display: grid;
+  grid-template-columns: 1fr 0.5fr;
+  width: 100%;
+  gap: 10px;
+  margin-top: 10px;
+}
+.bigBox {
+  height: 500px;
+  width: 100%;
+  background-color: red;
+}
+.box {
+  height: 245px;
+  width: 100%;
+  background-color: gray;
+}
+.anotherContainer {
+  display: grid;
+  grid-template-rows: 1fr;
+}
+#mainContainerTwo {
+  margin: 0 auto;
+  max-width: 1192px;
+}
+.containerBoxTwo {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  gap: 20px;
+}
+.oneBox {
+  width: 100%;
+  height: 135px;
+  background-color: maroon;
+  border: 2px solid black;
+}
+.boxOfContainerThree {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.boxOfContainerThree nav {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  justify-content: end;
+}
+.boxOfContainerThree nav ul {
+  display: grid;
+  grid-template-columns: repeat(3, 115px);
+  justify-items: center;
+  align-items: center;
+  justify-content: end;
+  font-size: 12px;
+}
+.containerBoxFour {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.twoBox {
+  width: 95%;
+  height: 225px;
+  background-color: blue;
+  border: 2px solid black;
+}
+.containerBoxFive {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 25px;
+  margin-top: 75px;
+  line-height: 32px;
+}
+.boxOfContainerFour {
+  width: 100%;
+  height: 300px;
+  background-color: pink;
+  border: 2px solid black;
+}
+.navNine {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.navNine nav {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  justify-content: end;
+}
+.boxContainerSeven {
+  display: grid;
+  grid-template-columns: repeat(4, 2fr);
+  gap: 20px;
+}
+.threeBox {
+  width: 100%;
+  height: 250px;
+  background-color: olive;
+  border: 2px solid black;
+}
+#footerOne {
+  width: 100%;
+  background-color: lightslategray;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+}
+#footerOne nav ul {
+  display: grid;
+  grid-template-columns: repeat(5, 75px);
+  justify-content: center;
+  align-items: center;
+}
+#footerOne ul {
+  display: grid;
+  grid-template-columns: repeat(6, 60px);
+  height: 50px;
+  justify-content: center;
+  align-items: center;
+}
+#footerTwo {
+  display: grid;
+  justify-items: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  background-color: black;
+  color: white;
+}
+/* media queries*/
+@media only screen and (max-width: 768) {
+  #mainContainer {
+  }
+}
